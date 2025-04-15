@@ -10,7 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "mkdir -p build && cp index.html hello.js build/"
   },
   "author": "jrw@mit.edu",
   "license": "MIT"
